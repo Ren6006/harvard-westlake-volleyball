@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Profile</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="player.css">
+  <style>
+    /* Additional styles for the player profile page */
+    body {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .player-stats {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    .player-stats div {
+      flex: 1;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Player Profile: <span id="player-name"></span></h2>
+  <div class="player-stats">
+    <div id="kills">Kills: 0</div>
+    <div id="blocks">Blocks: 0</div>
+    <div id="digs">Digs: 0</div>
+    <div id="sets-played">Sets Played: 0</div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
